@@ -1,0 +1,33 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Cache e bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Modelos baixados (grandes, reproduzíveis via download)
+*.tflite
+*.task
+
+# Dados de entrada/saída (imagens, geralmente não versionadas)
+data/*
+!data/example.jpg
+
+output/*
+!output/example-blurred.png
+# Configurações de IDE
+.idea/
+.vscode/
+*.iml
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
