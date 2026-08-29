@@ -12,7 +12,7 @@ Detecta rostos em imagens e aplica borrão (blur) automático para anonimizaçã
 1. Clone o repositório e entre na pasta do projeto:
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/Jeivizz/Face-Anonymizer
 cd "Face Anonymizer"
 ```
 
