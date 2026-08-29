@@ -53,11 +53,11 @@ Face Anonymizer/
 ## Uso
 
 1. Coloque a imagem que deseja processar em `./data/`.
-2. Ajuste o caminho da imagem na variável `img_path` em `censor_img.py`, se necessário.
+2. Ajuste o caminho da imagem na variável `img_path` em `main.py`, se necessário.
 3. Execute:
 
 ```bash
-python3 censor_img.py
+python3 main.py
 ```
 
 Uma janela será aberta mostrando a imagem com os rostos detectados borrados. Pressione qualquer tecla para fechar.

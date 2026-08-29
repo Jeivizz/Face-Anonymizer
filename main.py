@@ -7,7 +7,7 @@ import argparse
 import utils
 
 args = argparser = argparse.ArgumentParser()
-args.add_argument('--mode', default='image') # ['image', 'video', webcam']
+args.add_argument('--mode', default='webcam') # ['image', 'video', webcam']
 args.add_argument('--file_path', default='./data/example.jpg')
 args = args.parse_args()
 
